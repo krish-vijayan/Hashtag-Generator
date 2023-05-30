@@ -11,6 +11,9 @@
 		9489D87B2A26B304003C2544 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489D87A2A26B304003C2544 /* ContentView.swift */; };
 		9489D87D2A26B304003C2544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9489D87C2A26B304003C2544 /* Assets.xcassets */; };
 		9489D8802A26B304003C2544 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9489D87F2A26B304003C2544 /* Preview Assets.xcassets */; };
+		9489D8872A26B30E003C2544 /* AnimalClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9489D8862A26B30E003C2544 /* AnimalClassifier.mlmodel */; };
+		9489D8892A26B46D003C2544 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489D8882A26B46D003C2544 /* Images.swift */; };
+		9489D88B2A26B53A003C2544 /* Hashtags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489D88A2A26B53A003C2544 /* Hashtags.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9489D87A2A26B304003C2544 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9489D87C2A26B304003C2544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9489D87F2A26B304003C2544 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9489D8862A26B30E003C2544 /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalClassifier.mlmodel; sourceTree = "<group>"; };
+		9489D8882A26B46D003C2544 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		9489D88A2A26B53A003C2544 /* Hashtags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtags.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		9489D8772A26B304003C2544 /* HashtagGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				9489D8862A26B30E003C2544 /* AnimalClassifier.mlmodel */,
 				9489D8782A26B304003C2544 /* HashtagGeneratorApp.swift */,
 				9489D87A2A26B304003C2544 /* ContentView.swift */,
 				9489D87C2A26B304003C2544 /* Assets.xcassets */,
 				9489D87E2A26B304003C2544 /* Preview Content */,
+				9489D8882A26B46D003C2544 /* Images.swift */,
+				9489D88A2A26B53A003C2544 /* Hashtags.swift */,
 			);
 			path = HashtagGenerator;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9489D87B2A26B304003C2544 /* ContentView.swift in Sources */,
+				9489D8892A26B46D003C2544 /* Images.swift in Sources */,
+				9489D88B2A26B53A003C2544 /* Hashtags.swift in Sources */,
+				9489D8872A26B30E003C2544 /* AnimalClassifier.mlmodel in Sources */,
 				9489D8792A26B304003C2544 /* HashtagGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
